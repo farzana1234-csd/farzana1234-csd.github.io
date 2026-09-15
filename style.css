@@ -1,0 +1,166 @@
+/* =========================
+   GENERAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #222;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   HEADER / HOME
+========================= */
+
+header {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #93c5fd;
+}
+
+header p {
+    font-size: 17px;
+    margin: 8px 0;
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+section {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 35px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #1e293b;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #2563eb;
+    padding-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 12px;
+}
+
+
+/* =========================
+   SKILLS
+========================= */
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+
+/* =========================
+   PROJECTS
+========================= */
+
+section a {
+    font-weight: bold;
+}
+
+section a:hover {
+    color: #1d4ed8;
+}
+
+
+/* =========================
+   CONTACT
+========================= */
+
+#contact a {
+    display: inline-block;
+    margin: 8px 12px 8px 0;
+    padding: 10px 18px;
+    background: #2563eb;
+    color: white;
+    border-radius: 6px;
+}
+
+#contact a:hover {
+    background: #1d4ed8;
+    text-decoration: none;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 50px 15px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    section {
+        margin: 20px 12px;
+        padding: 25px 20px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+}
