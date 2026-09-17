@@ -39,13 +39,13 @@ body::before {
     background:
         radial-gradient(
             circle at 15% 15%,
-            rgba(130, 60, 255, 0.14),
-            transparent 30%
+            rgba(130, 60, 255, 0.13),
+            transparent 28%
         ),
         radial-gradient(
             circle at 85% 55%,
             rgba(50, 80, 200, 0.08),
-            transparent 28%
+            transparent 25%
         );
 }
 
@@ -56,43 +56,41 @@ body::before {
 
 .navbar {
     width: 100%;
-    max-width: 1180px;
-    height: 70px;
-
+    max-width: 1100px;
+    height: 64px;
     margin: auto;
-    padding: 0 40px;
+    padding: 0 35px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    border-bottom: 1px solid #182137;
+    border-bottom: 1px solid #171e2e;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 800;
     letter-spacing: -2px;
 }
 
 .logo span {
-    color: #aa5cff;
+    color: #a85cff;
 }
 
 .navbar nav {
     display: flex;
-    align-items: center;
-    gap: 32px;
+    gap: 27px;
 }
 
 .navbar nav a {
-    color: #8993a9;
-    font-size: 13px;
+    color: #8a93a8;
+    font-size: 12px;
     transition: 0.25s;
 }
 
 .navbar nav a:hover {
-    color: #bf7aff;
+    color: #b86cff;
 }
 
 
@@ -102,24 +100,22 @@ body::before {
 
 .hero {
     width: 100%;
-    max-width: 1180px;
-
-    min-height: 390px;
+    max-width: 1100px;
+    min-height: 330px;
 
     margin: auto;
-    padding: 65px 80px;
+    padding: 55px 70px;
 
     display: flex;
     align-items: center;
+    gap: 65px;
 
-    gap: 75px;
-
-    border-bottom: 1px solid #182137;
+    border-bottom: 1px solid #171e2e;
 }
 
 .profile-circle {
-    width: 230px;
-    height: 230px;
+    width: 205px;
+    height: 205px;
 
     flex-shrink: 0;
 
@@ -129,23 +125,23 @@ body::before {
 
     border-radius: 50%;
 
-    border: 1px solid #994dff;
+    border: 1px solid #944cff;
 
     background:
         radial-gradient(
             circle,
-            #1a192d 0%,
-            #080b15 72%
+            #19182c,
+            #080b14 72%
         );
 
     box-shadow:
-        0 0 20px rgba(130, 60, 255, 0.9),
-        0 0 50px rgba(130, 60, 255, 0.28);
+        0 0 18px rgba(130, 60, 255, 0.85),
+        0 0 45px rgba(130, 60, 255, 0.25);
 }
 
 .profile-circle div {
-    width: 196px;
-    height: 196px;
+    width: 175px;
+    height: 175px;
 
     display: flex;
     align-items: center;
@@ -153,88 +149,82 @@ body::before {
 
     border-radius: 50%;
 
-    border: 1px solid #2d3249;
+    border: 1px solid #292e44;
 
-    color: #f1eaff;
+    color: #f0eaff;
 
-    font-size: 64px;
+    font-size: 58px;
     font-weight: 800;
 
     letter-spacing: -6px;
 
     text-shadow:
-        0 0 16px rgba(193, 116, 255, 0.9);
+        0 0 15px rgba(193, 116, 255, 0.9);
 }
 
 .hero-content {
-    max-width: 670px;
+    max-width: 620px;
 }
 
 .mini-title {
-    color: #ad65ff;
+    color: #a960ff;
 
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
 
     letter-spacing: 2px;
 
-    margin-bottom: 9px;
+    margin-bottom: 8px;
 }
 
 .hero h1 {
-    color: #f2f3f8;
+    color: #f1f2f8;
 
-    font-size: 58px;
-
-    line-height: 0.94;
+    font-size: 52px;
+    line-height: 0.95;
 
     letter-spacing: -3px;
 }
 
 .hero h1 span {
     display: block;
-
-    color: #929caf;
+    color: #8d97ad;
 }
 
 .hero h2 {
-    margin-top: 14px;
+    margin-top: 12px;
 
-    color: #e0e4ef;
+    color: #dfe3ef;
 
-    font-size: 23px;
-
+    font-size: 21px;
     font-weight: 500;
 }
 
 .hero-text {
-    max-width: 650px;
+    max-width: 600px;
 
-    margin-top: 14px;
+    margin-top: 13px;
 
-    color: #818ca2;
+    color: #7e899e;
 
-    font-size: 14px;
-
+    font-size: 13px;
     line-height: 1.7;
 }
 
 .hero-buttons {
     display: flex;
+    gap: 12px;
 
-    gap: 13px;
-
-    margin-top: 23px;
+    margin-top: 22px;
 }
 
 .primary-btn,
 .secondary-btn {
-    padding: 11px 19px;
+    padding: 10px 17px;
 
     border-radius: 5px;
 
     font-size: 12px;
-
     font-weight: 700;
 
     transition: 0.25s;
@@ -243,18 +233,17 @@ body::before {
 .primary-btn {
     background: linear-gradient(
         90deg,
-        #7545f4,
-        #a83dff
+        #7445f4,
+        #a53dff
     );
 
     box-shadow:
-        0 0 17px rgba(125, 65, 255, 0.35);
+        0 0 15px rgba(125, 65, 255, 0.3);
 }
 
 .secondary-btn {
-    border: 1px solid #333d53;
-
-    color: #b9c1d0;
+    border: 1px solid #30394f;
+    color: #b5bdce;
 }
 
 .primary-btn:hover,
@@ -269,49 +258,46 @@ body::before {
 
 .section {
     width: 100%;
-    max-width: 1180px;
+    max-width: 1100px;
 
     margin: auto;
 
-    padding: 58px 80px;
+    padding: 55px 70px;
 
-    border-bottom: 1px solid #182137;
+    border-bottom: 1px solid #171e2e;
 }
 
 .section-heading {
     display: flex;
-
     align-items: flex-start;
 
-    gap: 15px;
+    gap: 14px;
 
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 
 .section-heading > span {
-    color: #a75cff;
+    color: #a45cff;
 
-    font-size: 13px;
-
+    font-size: 12px;
     font-weight: 700;
 }
 
 .section-heading p {
-    color: #a75cff;
+    color: #a45cff;
 
-    font-size: 11px;
-
+    font-size: 10px;
     font-weight: 700;
 
     letter-spacing: 2px;
 }
 
 .section-heading h2 {
-    margin-top: 4px;
+    margin-top: 3px;
 
-    color: #edf0f7;
+    color: #eceef6;
 
-    font-size: 32px;
+    font-size: 30px;
 
     letter-spacing: -1px;
 }
@@ -324,43 +310,41 @@ body::before {
 .about {
     display: grid;
 
-    grid-template-columns: 1.2fr 0.8fr;
+    grid-template-columns: 1.25fr 0.75fr;
 
-    gap: 60px;
+    gap: 55px;
 
     align-items: center;
 }
 
 .about-text p {
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 
-    color: #8993a8;
+    color: #858fa4;
 
-    font-size: 14px;
-
-    line-height: 1.75;
+    font-size: 13px;
+    line-height: 1.7;
 }
 
 .about-box {
-    padding: 16px 21px;
+    padding: 15px 20px;
 
     background: #090f1b;
 
-    border: 1px solid #1b2a43;
+    border: 1px solid #1a2941;
 
-    border-radius: 8px;
+    border-radius: 7px;
 }
 
 .about-row {
-    min-height: 68px;
+    min-height: 65px;
 
     display: flex;
-
     align-items: center;
 
-    gap: 15px;
+    gap: 14px;
 
-    border-bottom: 1px solid #1b263c;
+    border-bottom: 1px solid #19243a;
 }
 
 .about-row:last-child {
@@ -368,41 +352,39 @@ body::before {
 }
 
 .about-icon {
-    width: 40px;
-    height: 40px;
+    width: 38px;
+    height: 38px;
 
     display: flex;
-
     align-items: center;
     justify-content: center;
 
     border-radius: 7px;
 
-    background: #17102f;
+    background: #17102e;
 
-    color: #aa62ff;
+    color: #a961ff;
 
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .about-row small {
     display: block;
 
-    color: #606b82;
+    color: #5d6980;
 
     font-size: 9px;
-
     letter-spacing: 1px;
 }
 
 .about-row strong {
     display: block;
 
-    margin-top: 3px;
+    margin-top: 2px;
 
-    color: #d9deeb;
+    color: #d8ddeb;
 
-    font-size: 13px;
+    font-size: 12px;
 }
 
 
@@ -415,43 +397,40 @@ body::before {
 
     grid-template-columns: repeat(4, 1fr);
 
-    gap: 13px;
+    gap: 12px;
 }
 
 .skill {
-    min-height: 82px;
+    min-height: 75px;
 
-    padding: 15px;
+    padding: 14px;
 
     display: flex;
-
     align-items: center;
 
-    gap: 14px;
+    gap: 13px;
 
     background: #090f1b;
 
-    border: 1px solid #1b2a43;
+    border: 1px solid #1a2941;
 
-    border-radius: 8px;
+    border-radius: 7px;
 
     transition: 0.25s;
 }
 
 .skill:hover {
     border-color: #7546d2;
-
     transform: translateY(-3px);
 }
 
 .skill-icon {
-    width: 44px;
-    height: 44px;
+    width: 42px;
+    height: 42px;
 
     flex-shrink: 0;
 
     display: flex;
-
     align-items: center;
     justify-content: center;
 
@@ -459,8 +438,7 @@ body::before {
 
     background: #11192b;
 
-    font-size: 14px;
-
+    font-size: 13px;
     font-weight: 800;
 }
 
@@ -499,13 +477,13 @@ body::before {
 .skill h3 {
     color: #dce1ee;
 
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .skill p {
     margin-top: 3px;
 
-    color: #6e7a91;
+    color: #68758c;
 
     font-size: 10px;
 }
@@ -520,17 +498,17 @@ body::before {
 
     grid-template-columns: repeat(3, 1fr);
 
-    gap: 16px;
+    gap: 15px;
 }
 
 .project {
-    min-height: 275px;
+    min-height: 260px;
 
-    padding: 21px;
+    padding: 20px;
 
     background: #090f1b;
 
-    border: 1px solid #1b2a43;
+    border: 1px solid #1a2941;
 
     border-radius: 8px;
 
@@ -539,28 +517,25 @@ body::before {
 
 .project:hover {
     border-color: #7546d2;
-
     transform: translateY(-3px);
 }
 
 .project-top {
     display: flex;
-
     justify-content: space-between;
 
-    color: #657187;
+    color: #626e85;
 
     font-size: 11px;
 }
 
 .project-icon {
-    width: 44px;
-    height: 44px;
+    width: 42px;
+    height: 42px;
 
-    margin: 19px 0 14px;
+    margin: 18px 0 13px;
 
     display: flex;
-
     align-items: center;
     justify-content: center;
 
@@ -570,51 +545,49 @@ body::before {
 
     color: #b65cff;
 
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .project > small {
     color: #956ec8;
 
     font-size: 9px;
-
     letter-spacing: 1px;
 }
 
 .project h3 {
     margin: 7px 0;
 
-    color: #e2e5ee;
+    color: #e1e4ee;
 
     font-size: 18px;
 }
 
 .project p {
-    min-height: 75px;
+    min-height: 70px;
 
-    color: #7b869b;
+    color: #78849a;
 
     font-size: 11px;
 
-    line-height: 1.7;
+    line-height: 1.65;
 }
 
 .tags {
     display: flex;
 
     gap: 6px;
-
     flex-wrap: wrap;
 
-    margin-top: 14px;
+    margin-top: 13px;
 }
 
 .tags span {
-    padding: 4px 9px;
+    padding: 4px 8px;
 
-    color: #8993a7;
+    color: #8792a7;
 
-    border: 1px solid #2a3751;
+    border: 1px solid #293650;
 
     border-radius: 12px;
 
@@ -628,22 +601,21 @@ body::before {
 
 .education {
     display: flex;
-
     flex-direction: column;
 }
 
 .edu {
-    min-height: 76px;
+    min-height: 72px;
 
     display: grid;
 
-    grid-template-columns: 125px 1fr auto;
+    grid-template-columns: 120px 1fr auto;
 
     align-items: center;
 
-    padding: 13px 16px;
+    padding: 12px 15px;
 
-    border-bottom: 1px solid #1b263c;
+    border-bottom: 1px solid #19243a;
 }
 
 .edu:last-child {
@@ -651,7 +623,7 @@ body::before {
 }
 
 .edu-year {
-    color: #7c879b;
+    color: #78849a;
 
     font-size: 11px;
 }
@@ -659,19 +631,19 @@ body::before {
 .edu h3 {
     color: #dce1ee;
 
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .edu p {
     margin-top: 3px;
 
-    color: #707c92;
+    color: #6f7b91;
 
     font-size: 11px;
 }
 
 .status {
-    padding: 5px 11px;
+    padding: 5px 10px;
 
     background: #211333;
 
@@ -692,43 +664,40 @@ body::before {
 
     grid-template-columns: repeat(4, 1fr);
 
-    gap: 13px;
+    gap: 12px;
 }
 
 .certificate {
-    min-height: 100px;
+    min-height: 95px;
 
-    padding: 16px;
+    padding: 15px;
 
     display: flex;
-
     align-items: center;
 
-    gap: 14px;
+    gap: 13px;
 
     background: #090f1b;
 
-    border: 1px solid #1b2a43;
+    border: 1px solid #1a2941;
 
-    border-radius: 8px;
+    border-radius: 7px;
 
     transition: 0.25s;
 }
 
 .certificate:hover {
     border-color: #7546d2;
-
     transform: translateY(-2px);
 }
 
 .cert-icon {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
 
     flex-shrink: 0;
 
     display: flex;
-
     align-items: center;
     justify-content: center;
 
@@ -738,13 +707,13 @@ body::before {
 
     border-radius: 7px;
 
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .certificate h3 {
     color: #dce1ed;
 
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .certificate p {
@@ -772,26 +741,25 @@ body::before {
 
 .contact {
     width: 100%;
-    max-width: 1180px;
+    max-width: 1100px;
 
     margin: auto;
 
-    padding: 65px 80px;
+    padding: 60px 70px;
 
     display: grid;
 
     grid-template-columns: 0.8fr 1.2fr;
 
-    gap: 55px;
+    gap: 50px;
 
-    border-bottom: 1px solid #182137;
+    border-bottom: 1px solid #171e2e;
 }
 
 .contact-left > small {
     color: #a45cff;
 
     font-size: 10px;
-
     font-weight: 700;
 
     letter-spacing: 1px;
@@ -802,7 +770,7 @@ body::before {
 
     color: #eceef6;
 
-    font-size: 32px;
+    font-size: 30px;
 
     line-height: 1.1;
 }
@@ -812,15 +780,15 @@ body::before {
 }
 
 .contact-left p {
-    max-width: 360px;
+    max-width: 350px;
 
-    margin-top: 13px;
+    margin-top: 12px;
 
-    color: #69758a;
+    color: #68748a;
 
     font-size: 12px;
 
-    line-height: 1.65;
+    line-height: 1.6;
 }
 
 .contact-grid {
@@ -828,43 +796,40 @@ body::before {
 
     grid-template-columns: repeat(2, 1fr);
 
-    gap: 13px;
+    gap: 12px;
 }
 
 .contact-card {
-    min-height: 80px;
+    min-height: 75px;
 
-    padding: 14px;
+    padding: 13px;
 
     display: flex;
-
     align-items: center;
 
-    gap: 14px;
+    gap: 13px;
 
     background: #090f1b;
 
-    border: 1px solid #1b2a43;
+    border: 1px solid #1a2941;
 
-    border-radius: 8px;
+    border-radius: 7px;
 
     transition: 0.25s;
 }
 
 .contact-card:hover {
     border-color: #7546d2;
-
     transform: translateY(-2px);
 }
 
 .contact-icon {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
 
     flex-shrink: 0;
 
     display: flex;
-
     align-items: center;
     justify-content: center;
 
@@ -875,7 +840,6 @@ body::before {
     border-radius: 7px;
 
     font-size: 12px;
-
     font-weight: 700;
 }
 
@@ -894,18 +858,15 @@ body::before {
 
     margin-top: 3px;
 
-    max-width: 190px;
+    max-width: 180px;
 
     overflow: hidden;
-
     white-space: nowrap;
-
     text-overflow: ellipsis;
 
     color: #cdd3e3;
 
     font-size: 11px;
-
     font-weight: 500;
 }
 
@@ -914,7 +875,7 @@ body::before {
 
     color: #69758b;
 
-    font-size: 17px;
+    font-size: 16px;
 }
 
 
@@ -924,24 +885,21 @@ body::before {
 
 footer {
     width: 100%;
-    max-width: 1180px;
+    max-width: 1100px;
 
     margin: auto;
 
-    padding: 24px 80px;
+    padding: 22px 70px;
 
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
 }
 
 .footer-logo {
     color: #e8eaf3;
 
-    font-size: 18px;
-
+    font-size: 17px;
     font-weight: 800;
 }
 
@@ -960,18 +918,17 @@ footer p {
    TABLET
 ========================= */
 
-@media (max-width: 950px) {
+@media (max-width: 900px) {
 
     .hero {
-        padding: 55px 40px;
-
-        gap: 45px;
+        padding: 45px 35px;
+        gap: 40px;
     }
 
     .section,
     .contact {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     .skills-grid,
@@ -994,7 +951,7 @@ footer p {
     .navbar {
         height: auto;
 
-        padding: 17px 20px;
+        padding: 15px 20px;
 
         flex-direction: column;
 
@@ -1006,37 +963,37 @@ footer p {
 
         justify-content: center;
 
-        gap: 14px;
+        gap: 15px;
     }
 
     .hero {
-        padding: 50px 20px;
+        padding: 45px 20px;
 
         flex-direction: column;
 
         text-align: center;
 
-        gap: 28px;
+        gap: 25px;
     }
 
     .profile-circle {
-        width: 180px;
-        height: 180px;
+        width: 170px;
+        height: 170px;
     }
 
     .profile-circle div {
-        width: 155px;
-        height: 155px;
+        width: 145px;
+        height: 145px;
 
-        font-size: 48px;
-    }
-
-    .hero h1 {
         font-size: 45px;
     }
 
+    .hero h1 {
+        font-size: 42px;
+    }
+
     .hero h2 {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .hero-text {
@@ -1045,22 +1002,16 @@ footer p {
 
     .hero-buttons {
         justify-content: center;
-
         flex-wrap: wrap;
     }
 
     .section {
-        padding: 48px 20px;
-    }
-
-    .section-heading h2 {
-        font-size: 28px;
+        padding: 45px 20px;
     }
 
     .about {
         grid-template-columns: 1fr;
-
-        gap: 28px;
+        gap: 25px;
     }
 
     .skills-grid,
@@ -1071,7 +1022,6 @@ footer p {
 
     .edu {
         grid-template-columns: 90px 1fr;
-
         gap: 10px;
     }
 
@@ -1080,7 +1030,7 @@ footer p {
     }
 
     .contact {
-        padding: 50px 20px;
+        padding: 45px 20px;
     }
 
     .contact-grid {
@@ -1088,7 +1038,7 @@ footer p {
     }
 
     footer {
-        padding: 22px 20px;
+        padding: 20px;
 
         flex-direction: column;
 
